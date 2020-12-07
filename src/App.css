@@ -1,38 +1,96 @@
+
+
 .App {
+  background-color: rgb(46, 250, 114);
+}
+
+.header{
+  width: 100vw;
+  height: 6vh;
+  background-color: rgb(221, 255, 27);
+  color: rgb(5, 5, 5);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display{
+  display: flex;
+  width: 100vw;
+  height: 89vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65vw;
+  height: 92vh;
+  margin: 10px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container{
+  width: 300px;
+  height: 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  width: 120px;
+  height: 120px;
+}
+.courseName{
+  
+}
+.scoreInput{
+  width: 72px;
+  height: 16px;
+}
+.dateInput{
+  width: 125px;
+  height: 16px;
+}
+.teeboxInput{
+  width: 90px;
+  height: 16px;
+}
+.post_score {
+  margin-top: 10px;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.history-container{ 
+  width: 45vw;
+  height: 92vh;
+  
+}
+.historyTitle{
+  align-items: center;
+}
+.submittedscore{
+  display: flex;
+  justify-content: space-between
+
+}
+.ctrlbuttons{
+  height: 20px;
+}
+
+.bestScore {
+  display: flex;
+  align-items:flex-end;
+}
+.avescore {
+  display: flex;
+  align-items:flex-end; 
+}
+
+
+
+.footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(22, 255, 243);
+  align-items: center;
 }
